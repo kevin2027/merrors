@@ -26,8 +26,7 @@ fmt.Printf("%s\n", merrors.String(err))
 ## 打印结果
 
 ```text
-错误：error call
-/Users/dz0401008/projects/dingtalk/test/fmt_test.go:func1:30: 错误：error call
-/Users/dz0401008/projects/dingtalk/test/fmt_test.go:TestFmtError:37: error call
-
+new errorerror call
+/Users/dz0401008/projects/merrors/errors.go:String:4: new errorerror call
+/Users/dz0401008/projects/merrors/merrors_test.go:func1:14: error call
 ```
