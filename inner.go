@@ -9,7 +9,7 @@ import (
 
 func sprint(err error) string {
 	str := fmt.Sprintf("%s\n", err)
-	skip := 1
+	skip := 2
 	for ; err != nil; err = errors.Unwrap(err) {
 		if pc, file, line, ok := runtime.Caller(skip); ok {
 			fn := runtime.FuncForPC(pc)

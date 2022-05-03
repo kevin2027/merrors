@@ -16,7 +16,7 @@ func TestString(t *testing.T) {
 	}()
 	err = Caller()
 	if err != nil {
-		err = fmt.Errorf("new error%w", err)
+		err = fmt.Errorf("new error: %w", err)
 	}
 }
 
